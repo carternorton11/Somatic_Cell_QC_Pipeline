@@ -44,6 +44,8 @@ cutoffs_450K = pd.read_csv(dmrs_path + "450K_dmrs_cutoffs.csv",header = 0,index_
 print("Reading in Beta Values")
 beta_values = pd.read_csv(betas,header = 0,index_col = 0)
 print("")
+print("Number of CG's Identified:", len(beta_values))
+print("")
 print(beta_values)
 
 
@@ -51,8 +53,6 @@ print(beta_values)
 
 
 # Identifies array type, and builds the appropriate dictionary using the dmr files that were read in the previous step
-print("")
-print("Number of CG's Identified:", len(beta_values))
 if len(beta_values) > 500000:
     print("")
     print("***** This looks like EPIC 850K Data ****")
