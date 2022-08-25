@@ -43,10 +43,6 @@ cutoffs_EPIC = pd.read_csv(dmrs_path + "EPIC_dmrs_cutoffs.csv",header = 0,index_
 cutoffs_450K = pd.read_csv(dmrs_path + "450K_dmrs_cutoffs.csv",header = 0,index_col = 0)
 print("Reading in Beta Values")
 beta_values = pd.read_csv(betas,header = 0,index_col = 0)
-print("")
-print("Number of CG's Identified:", len(beta_values))
-print("")
-print(beta_values)
 
 
 
@@ -70,6 +66,10 @@ if len(beta_values) < 30000:
     print("***** This looks like 27K data. REMINDER THIS PIPELINE WILL NOT WORK FOR ANY OTHER PLATFORM BUT 450K AND 850K METHYLATION ARRAY DATA")
     print("")
 
+print("Number of CG's Identified:", len(beta_values))
+print("")
+print(beta_values)
+
 dmrs_dict = {}
 count = 0
 for index in dmrs.index:
@@ -81,6 +81,7 @@ for index in dmrs.index:
     else:    
         dmrs_dict[key].append(value)
 
+print("")
 print("Number of DMR'S Used for Contamination QC Analysis:", len(dmrs_dict))
 
 
@@ -175,5 +176,5 @@ print(contamination_scores_df)
 print("")
 print("Analysis Complete!")
 print("")
-print("All Figures and Reports Were Waved to", base_dir)
+print("All Figures and Reports Were Saved to", base_dir)
 print("")

@@ -6,7 +6,7 @@
 base_dir="/Users/chadpollard/Desktop/Temp/"
 
 # Path to beta values for your samples (Make sure it is a .csv file CG's are in the rows and sample names are in the columns)
-betas="/Volumes/Research_Data/Research_Datasets/Sperm/IVF_Data/beta_values.csv"
+betas="/Volumes/Research_Data/Research_Datasets/Sperm/Contamination_Data/Contamination_array/Contamination_array_beta_values.csv"
 
 # Path to the dmrs folder you downloaded from the github. (This file can be downloaded from this github link: ) Don't forget to add a "/" at the end
 dmrs_path="/Volumes/Research_Data/Jenkins_Lab_Github/Somatic_Cell_QC_Pipeline/DMR_Files/"
