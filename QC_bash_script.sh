@@ -3,10 +3,10 @@
 ### Please replace the paths that were included for examples. Then input the paths to these directories as located on your machine. Make sure you are adding the paths inside the " " marks.
 
 # Path to base directory where you want your QC files to be generated. Don't forget to add a "/" at the end as we want the files to be created inside this directory.
-base_dir="/Users/chadpollard/Desktop/Temp/Isaacs_Data/"
+base_dir="/Volumes/Research_Data/Research_Datasets/Sperm/IUI/Contamination_Analysis/"
 
 # Path to beta values for your samples (Make sure it is a .csv file CG's are in the rows and sample names are in the columns)
-betas="/Users/chadpollard/Downloads/COSMETH_METHYLATION_DATA.csv"
+betas="/Volumes/Research_Data/Research_Datasets/Sperm/IUI/IUI_beta_values.csv"
 
 # Path to the dmrs folder you downloaded from the github. (This file can be downloaded from this github link: ) Don't forget to add a "/" at the end
 dmrs_path="/Volumes/Research_Data/Jenkins_Lab_Github/Somatic_Cell_QC_Pipeline/DMR_Files/"
