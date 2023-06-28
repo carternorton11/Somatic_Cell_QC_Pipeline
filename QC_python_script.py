@@ -131,7 +131,7 @@ for sample in mean_dmr_df.index:
     plt.xlabel("Differentially Methylated Regions Between Blood and Sperm",fontdict= {'fontsize': 40, 'fontweight':'bold','fontstyle':'italic','color':'black'})
     plt.xticks(rotation=90,fontsize = 25)
     plt.yticks(size = 15)
-    plt.ylim(0,0.35)
+    plt.ylim(0,1)
     plt.tight_layout()
     plt.savefig(base_dir + "Figures/" + sample + '.png')
     plt.clf()
