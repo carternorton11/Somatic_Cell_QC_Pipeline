@@ -11,7 +11,7 @@ Using methylation signatures, these pipelines identify somatic cell contaminatio
 
 <img width="1258" alt="Screen Shot 2024-02-27 at 8 10 07 PM" src="https://github.com/jenkins-lab-byu/Somatic_Cell_QC_Pipeline/assets/99043737/012d2502-ae71-4c54-8068-f45697cca48c">
 
-## 3. Run your bash script in terminal <br>
+## 3. Run your bash script <br>
    bash /path/QC_bash_script.sh
 
 ## 4. Check results
