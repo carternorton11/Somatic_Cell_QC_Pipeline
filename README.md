@@ -1,4 +1,4 @@
-# Somatic_Cell_QC_Pipeline
+# Somatic Cell QC Pipelines
 Using methylation signatures, these pipelines identify somatic cell contamination in semen samples. Compatible with Illumina EPIC or 450K methylation data. 
 
 # Set Up
