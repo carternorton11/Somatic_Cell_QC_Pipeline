@@ -6,6 +6,7 @@ Using methylation signatures, these pipelines identify somatic cell contaminatio
    
   **Somatic Cell DMR Pipeline**: An simple algorithm that uses hypermethylation at 64 (Illumina EPIC Data) or 38 (Illumina 450K) genomic regions to detect somatic contamination. <br>
      If samples are methylated at 60% or more regions and DLK1 methylation exceeds .2, samples are marked as contaminated <br>
+     <br>
   **Somatic Cell ML Pipeline**: A logistic regression model that uses hypermethylation at 250 regions to detect somatic contamination. <br>
      If samples are predicted to be less than 99.999% uncontaminated, they are marked as contaminated <br>
 
